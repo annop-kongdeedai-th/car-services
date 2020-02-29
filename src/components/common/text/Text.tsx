@@ -1,19 +1,17 @@
 import * as React from "react";
-import { Typography, TypographyTypeMap } from "@material-ui/core";
+import { Typography, TypographyProps } from "@material-ui/core";
 import { CSSProperties } from "@material-ui/styles";
-import { OverridableComponent } from "@material-ui/core/OverridableComponent";
 
-interface IText extends OverridableComponent<TypographyTypeMap> {
+export interface IText extends TypographyProps {
   textColor?: string;
   bold?: boolean;
-  style?: CSSProperties;
 }
 class Text extends React.Component<IText> {
   public render() {
-    const { style, children } = this.props;
+    const { style, textColor, bold, children, ...rest } = this.props;
 
     return (
-      <Typography style={{ ...this.getStyle(), ...style }}>
+      <Typography style={{ ...this.getStyle(), ...style }} {...rest}>
         {children}
       </Typography>
     );
