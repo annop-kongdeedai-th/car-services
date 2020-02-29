@@ -12,9 +12,9 @@
       "description": "เปลี่ยนยาง",
       "location": {
         "locationName": "อู่ใจดี ภูเก็ต",
-        "locationDescription": "222 ถ.สุขุมวิท กรุงเทพ, ประเทศไทย",
-        "latitude": 1.0,
-        "longitude": 1.5
+        "locationDescription": "ภูเก็ต, ประเทศไทย",
+        "latitude": 13.808358,
+        "longitude": 100.554982
       },
       "distance": 50000,
       "price": 40000,
@@ -26,8 +26,8 @@
       "location": {
         "locationName": "อู่ใจดี กรุงเทพ",
         "locationDescription": "222 ถ.สุขุมวิท กรุงเทพ, ประเทศไทย",
-        "latitude": 1.0,
-        "longitude": 1.5
+        "latitude": 7.981232,
+        "longitude": 98.352682
       },
       "distance": 40000,
       "price": 38000,
@@ -39,8 +39,8 @@
       "location": {
         "locationName": "อู่ใจดี กรุงเทพ",
         "locationDescription": "222 ถ.สุขุมวิท กรุงเทพ, ประเทศไทย",
-        "latitude": 1.0,
-        "longitude": 1.5
+        "latitude": 13.738683,
+        "longitude": 100.561351
       },
       "distance": 30000,
       "price": 5000,
@@ -51,9 +51,9 @@
       "description": "ซ่อมเบรค",
       "location": {
         "locationName": "อู่ใจดี เชียงใหม่",
-        "locationDescription": "222 ถ.สุขุมวิท กรุงเทพ, ประเทศไทย",
-        "latitude": 1.0,
-        "longitude": 1.5
+        "locationDescription": "เชียงใหม่, ประเทศไทย",
+        "latitude": 13.792425,
+        "longitude": 98.969126
       },
       "distance": 20000,
       "price": 12000,
@@ -65,8 +65,8 @@
       "location": {
         "locationName": "อู่ใจดี กรุงเทพ",
         "locationDescription": "222 ถ.สุขุมวิท กรุงเทพ, ประเทศไทย",
-        "latitude": 1.0,
-        "longitude": 1.5
+        "latitude": 13.738683,
+        "longitude": 100.561351
       },
       "distance": 10000,
       "price": 1000,
@@ -78,8 +78,8 @@
       "location": {
         "locationName": "อู่ใจดี สมุทรปราการ",
         "locationDescription": "222 ถ.สุขุมวิท กรุงเทพ, ประเทศไทย",
-        "latitude": 1.0,
-        "longitude": 1.5
+        "latitude": 13.605112,
+        "longitude": 100.686372
       },
       "distance": 8000,
       "price": 1000,
