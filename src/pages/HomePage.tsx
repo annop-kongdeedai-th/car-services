@@ -1,6 +1,6 @@
 import { inject, observer } from "mobx-react";
 import React, { Component } from "react";
-import { RouteComponentProps } from "react-router-dom";
+import { RouteComponentProps, Link } from "react-router-dom";
 import {
   ListItem,
   ListItemIcon,
@@ -47,7 +47,9 @@ class HomePage extends Component<IHomePage> {
       <Grid container>
         <Grid item container justify={"center"}>
           <Grid item computer={4} tablet={8} mobile={12}>
-            <img src={this.myCar.image} style={styles.imageStyle} />
+            <Link to={"/service-history"}>
+              <img src={this.myCar.image} style={styles.imageStyle} />
+            </Link>
             <List>
               <ListItem>
                 <Text bold>{this.myCar.model}</Text>
