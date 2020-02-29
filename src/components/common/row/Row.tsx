@@ -1,18 +1,25 @@
 import * as React from "react";
-import { rowLayoutH, rowLayoutV } from "../../../constants/TYPES";
+
+export type rowLayoutH = "left" | "right" | "spaceBetween" | "spaceAround";
+
+export type rowLayoutV = "center" | "bottom";
 
 interface IRow {
   layoutH?: rowLayoutH;
   layoutV?: rowLayoutV;
+  onClick?: () => void;
   style?: any;
 }
 
 class Row extends React.Component<IRow> {
   public render() {
-    const { children, style } = this.props;
+    const { onClick, children, style } = this.props;
 
     return (
-      <div style={{ ...styles.container, ...this.getLayout(), ...style }}>
+      <div
+        onClick={onClick}
+        style={{ ...styles.container, ...this.getLayout(), ...style }}
+      >
         {children}
       </div>
     );
