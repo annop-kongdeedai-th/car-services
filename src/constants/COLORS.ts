@@ -8,6 +8,7 @@ const COLORS = {
   green: "rgb(63, 190, 63)",
   blue: "#4186E0",
   lightGreyShade2: "#f4f4f4",
+  yellow: "rgb(245, 197, 13)",
   transparent: "#00000000"
 };
 export default COLORS;
