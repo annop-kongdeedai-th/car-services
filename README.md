@@ -4,6 +4,6 @@ Website that showing car details and the history about car-service. This project
 # Installation and Running
 
 1. `npm install`
-2. add your `GOOGLE_API_KEY` to src/components/commmon/map/GoogleMap.tsx on line 6
+2. add your `GOOGLE_API_KEY` to `REACT_APP_GOOGLE_API_KEY` in .env file
 3. `npm start` 
 4. React server will run on http://localhost:3000
