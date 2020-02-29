@@ -56,10 +56,12 @@ class ServiceHistoryPage extends Component<IServiceHistoryPage> {
     service: IServiceModel,
     index: number
   ) => {
+    const { history } = this.props;
     return (
       <Row
         layoutH={"spaceBetween"}
-        style={styles.contentContainerStyle}
+        onClick={() => history.push(`/service-history/${service.id}`)}
+        style={styles.rowStyle}
         key={index}
       >
         <Row>
@@ -107,6 +109,9 @@ class ServiceHistoryPage extends Component<IServiceHistoryPage> {
   };
 }
 const styles: StyleSheet = {
+  rowStyle: {
+    cursor: "pointer"
+  },
   textHeaderStyle: {
     textAlign: "center",
     paddingTop: 15,
