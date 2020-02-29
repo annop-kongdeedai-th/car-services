@@ -44,7 +44,7 @@ class TextButton extends React.Component<ITextButton> {
     const styles: React.CSSProperties = {};
 
     if (bordered) {
-      styles.border = `1px solid ${textColor || COLORS.lightBlue}`;
+      styles.border = `1px solid ${textColor || COLORS.black}`;
     }
     if (textColor) {
       styles.color = textColor;
