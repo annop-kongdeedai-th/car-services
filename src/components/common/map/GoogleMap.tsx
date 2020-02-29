@@ -3,7 +3,7 @@ import GoogleMapReact, { Props } from "google-map-react";
 import { Marker } from "..";
 import { IAddressModel } from "modules/auth/AddressModel";
 
-const API_KEY = "API_KEY";
+const API_KEY: string = process.env.REACT_APP_GOOGLE_API_KEY as string;
 
 interface IGoogleMap extends Props {
   address: IAddressModel;
