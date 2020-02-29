@@ -1,5 +1,5 @@
 import * as React from "react";
-import { rowLayoutH, rowLayoutV } from "constants/types";
+import { rowLayoutH, rowLayoutV } from "../../../constants/TYPES";
 
 interface IRow {
   layoutH?: rowLayoutH;
