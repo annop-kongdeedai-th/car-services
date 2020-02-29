@@ -2,6 +2,8 @@ import { applySnapshot, types } from "mobx-state-tree";
 
 export const AddressModel = types
   .model("AddressModel", {
+    locationName: types.optional(types.string, ""),
+    locationDescription: types.optional(types.string, ""),
     latitude: types.optional(types.number, 0),
     longitude: types.optional(types.number, 0)
   })
