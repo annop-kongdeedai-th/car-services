@@ -4,6 +4,7 @@ import { AddressModel } from "modules/auth/AddressModel";
 
 export const ServiceModel = types
   .model("ServiceModel", {
+    id: types.optional(types.number, 0),
     description: types.optional(types.string, ""),
     location: types.optional(AddressModel, {}),
     distance: types.optional(types.number, 0),

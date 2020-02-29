@@ -8,6 +8,7 @@
   "miles": 560000,
   "serviceHistory": [
     {
+      "id": 1,
       "description": "เปลี่ยนยาง",
       "location": {
         "locationName": "อู่ใจดี ภูเก็ต",
@@ -20,6 +21,7 @@
       "date": "2020/09/01"
     },
     {
+      "id": 2,
       "description": "เปลี่ยนครัช",
       "location": {
         "locationName": "อู่ใจดี กรุงเทพ",
@@ -32,6 +34,7 @@
       "date": "2020/07/04"
     },
     {
+      "id": 3,
       "description": "เช็คระยะ",
       "location": {
         "locationName": "อู่ใจดี กรุงเทพ",
@@ -44,6 +47,7 @@
       "date": "2020/01/01"
     },
     {
+      "id": 4,
       "description": "ซ่อมเบรค",
       "location": {
         "locationName": "อู่ใจดี เชียงใหม่",
@@ -56,6 +60,7 @@
       "date": "2019/09/05"
     },
     {
+      "id": 5,
       "description": "เปลี่ยนใบปัดน้ำฝน",
       "location": {
         "locationName": "อู่ใจดี กรุงเทพ",
@@ -68,6 +73,7 @@
       "date": "2019/07/27"
     },
     {
+      "id": 6,
       "description": "ซ่อมกระจก",
       "location": {
         "locationName": "อู่ใจดี สมุทรปราการ",

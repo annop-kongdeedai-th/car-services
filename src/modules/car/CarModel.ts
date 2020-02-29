@@ -2,6 +2,7 @@ import { applySnapshot, types, flow } from "mobx-state-tree";
 import { IInput } from "constants/interface";
 import { ServiceModel } from "modules/service/ServiceModel";
 import { carAPI } from "./CarService";
+import { date_display_CE_TO_BE } from "utils/getDateFormat";
 
 export const CarModel = types
   .model("CarModel", {
@@ -20,7 +21,16 @@ export const CarModel = types
       return self.nextService.date;
     },
     get lastServiceDate() {
-      return self.serviceHistory.length > 0 ? self.serviceHistory[0].date : "-";
+      return self.serviceHistory.length > 0
+        ? date_display_CE_TO_BE(self.serviceHistory[0].date)
+        : "-";
+    },
+    get firstServiceDate() {
+      return self.serviceHistory.length > 0
+        ? date_display_CE_TO_BE(
+            self.serviceHistory[self.serviceHistory.length - 1].date
+          )
+        : "-";
     }
   }))
   .actions((self: any) => ({
