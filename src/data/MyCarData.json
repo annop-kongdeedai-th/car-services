@@ -1,0 +1,83 @@
+{
+  "brand": "Ford",
+  "model": "Focus",
+  "image": "https://i.ytimg.com/vi/7PXLPzcIydw/maxresdefault.jpg",
+  "vehicleNumber": "กขค 1234",
+  "vehicleProvince": "เชียงใหม่",
+  "color": "สีขาวดำแดง",
+  "miles": 560000,
+  "serviceHistory": [
+    {
+      "description": "เปลี่ยนยาง",
+      "location": {
+        "locationName": "อู่ใจดี ภูเก็ต",
+        "locationDescription": "222 ถ.สุขุมวิท กรุงเทพ, ประเทศไทย",
+        "latitude": 1.0,
+        "longitude": 1.5
+      },
+      "distance": 50000,
+      "price": 40000,
+      "date": "2020/09/01"
+    },
+    {
+      "description": "เปลี่ยนครัช",
+      "location": {
+        "locationName": "อู่ใจดี กรุงเทพ",
+        "locationDescription": "222 ถ.สุขุมวิท กรุงเทพ, ประเทศไทย",
+        "latitude": 1.0,
+        "longitude": 1.5
+      },
+      "distance": 40000,
+      "price": 38000,
+      "date": "2020/07/04"
+    },
+    {
+      "description": "เช็คระยะ",
+      "location": {
+        "locationName": "อู่ใจดี กรุงเทพ",
+        "locationDescription": "222 ถ.สุขุมวิท กรุงเทพ, ประเทศไทย",
+        "latitude": 1.0,
+        "longitude": 1.5
+      },
+      "distance": 30000,
+      "price": 5000,
+      "date": "2020/01/01"
+    },
+    {
+      "description": "ซ่อมเบรค",
+      "location": {
+        "locationName": "อู่ใจดี เชียงใหม่",
+        "locationDescription": "222 ถ.สุขุมวิท กรุงเทพ, ประเทศไทย",
+        "latitude": 1.0,
+        "longitude": 1.5
+      },
+      "distance": 20000,
+      "price": 12000,
+      "date": "2019/09/05"
+    },
+    {
+      "description": "เปลี่ยนใบปัดน้ำฝน",
+      "location": {
+        "locationName": "อู่ใจดี กรุงเทพ",
+        "locationDescription": "222 ถ.สุขุมวิท กรุงเทพ, ประเทศไทย",
+        "latitude": 1.0,
+        "longitude": 1.5
+      },
+      "distance": 10000,
+      "price": 1000,
+      "date": "2019/07/27"
+    },
+    {
+      "description": "ซ่อมกระจก",
+      "location": {
+        "locationName": "อู่ใจดี สมุทรปราการ",
+        "locationDescription": "222 ถ.สุขุมวิท กรุงเทพ, ประเทศไทย",
+        "latitude": 1.0,
+        "longitude": 1.5
+      },
+      "distance": 8000,
+      "price": 1000,
+      "date": "2019/07/11"
+    }
+  ]
+}
