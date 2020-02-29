@@ -1,6 +1,7 @@
-import { applySnapshot, types } from "mobx-state-tree";
+import { applySnapshot, types, flow } from "mobx-state-tree";
 import { IInput } from "constants/interface";
 import { AddressModel } from "modules/auth/AddressModel";
+import { serviceAPI } from "./ServiceService";
 
 export const ServiceModel = types
   .model("ServiceModel", {
@@ -15,8 +16,27 @@ export const ServiceModel = types
     //
   }))
   .actions((self: any) => ({
+    getServiceDetail: flow(function*(id: number) {
+      try {
+        const result = yield serviceAPI.getServiceDetail(id);
+        self.setAllField(result);
+      } catch (e) {
+        throw e;
+      } finally {
+        //
+      }
+    }),
     setField: ({ fieldName, value }: IInput) => {
       self[fieldName] = value;
+    },
+    setAllField: (data: any) => {
+      Object.keys(data).forEach(key => {
+        try {
+          self[key] = data[key];
+        } catch (e) {
+          console.log(e);
+        }
+      });
     },
     resetAll: () => {
       applySnapshot(self, {});
